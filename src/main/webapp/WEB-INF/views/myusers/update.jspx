@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_evarist_rootest_MyUser" modelAttribute="myUser" path="/myusers" versionField="Version" z="EoXjjV5nhiYcwiKTyKfht1EgWus=">
+        <field:input field="name" id="c_org_evarist_rootest_MyUser_name" required="true" z="9PclhyoXYATULL+3dgmNVCMQiWw="/>
+        <field:input field="address1" id="c_org_evarist_rootest_MyUser_address1" required="true" z="Aif8Blj9W8LlKsNHTw+PWBwkR8Q="/>
+        <field:input field="address2" id="c_org_evarist_rootest_MyUser_address2" z="VIU+EKygzN3WNhXoBNetyyKSsDQ="/>
+        <field:input field="city" id="c_org_evarist_rootest_MyUser_city" z="eXl0Yw3VAJ0OPDRiGFv8S9MdBnk="/>
+        <field:input field="st" id="c_org_evarist_rootest_MyUser_st" z="QlraHHh0MaT4Vz7rfuvDWkGnlO4="/>
+        <field:input field="zip" id="c_org_evarist_rootest_MyUser_zip" z="7Vbv91rqt70UKpSNNJbGpaSlt/E="/>
+    </form:update>
+</div>

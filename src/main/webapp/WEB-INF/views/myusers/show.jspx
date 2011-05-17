@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_evarist_rootest_MyUser" object="${myuser}" path="/myusers" z="7fdmtF1Zis2Qo52+22Fa9XQ1ccQ=">
+        <field:display field="name" id="s_org_evarist_rootest_MyUser_name" object="${myuser}" z="qJCwkJTSXEte+LYW7KwAYy3qBlM="/>
+        <field:display field="address1" id="s_org_evarist_rootest_MyUser_address1" object="${myuser}" z="9poSqXNMTebLX4aKgd8549KqROA="/>
+        <field:display field="address2" id="s_org_evarist_rootest_MyUser_address2" object="${myuser}" z="bmCq26q30brY0Et45Brd4ZYWBgw="/>
+        <field:display field="city" id="s_org_evarist_rootest_MyUser_city" object="${myuser}" z="kD747DUtQB1xiybfytfnRNahAu0="/>
+        <field:display field="st" id="s_org_evarist_rootest_MyUser_st" object="${myuser}" z="lCdJUxBX6cAU3BcVoY2hHInNkKE="/>
+        <field:display field="zip" id="s_org_evarist_rootest_MyUser_zip" object="${myuser}" z="NEzC9mo3T3jh8Nnx7a+JM0z/dYI="/>
+    </page:show>
+</div>

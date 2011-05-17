@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_evarist_rootest_Activity" modelAttribute="activity" path="/activitys" versionField="Version" z="47i8WZAMX0oNnLEfpeSJP7GZWSc=">
+        <field:input field="description" id="c_org_evarist_rootest_Activity_description" z="bjgdvEK7lYVVBu0xIs36LUQ9RAc="/>
+        <field:input field="email" id="c_org_evarist_rootest_Activity_email" validationMessageCode="field_invalid_email" z="QKj/pY1mP+nxfMl28aTeNIEXWLo="/>
+        <field:input field="type" id="c_org_evarist_rootest_Activity_type" z="xLeI0qJSZiG8gFibdX1hszdaen4="/>
+    </form:update>
+</div>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8"/>
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_myuser" z="usunpgw2ms7isz7eYcOe3Vj+56s=">
+            <menu:item id="i_myuser_new" messageCode="global_menu_new" url="/myusers?form" z="nfYzVa7tnS80UcaKPi/BcNon9xA="/>
+        <menu:item id="i_myuser_list" messageCode="global_menu_list" url="/myusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pFV7GEhVrcuSjl41Jur+oE52A/w="/>
+        </menu:category>
+    <menu:category id="c_interest" z="+nUZGZAoQYht1sS66tzHpxEtGc4=">
+            <menu:item id="i_interest_new" messageCode="global_menu_new" url="/interests?form" z="bJtCzV8IXTRwHehAHFtHyPC/WJ4="/>
+        <menu:item id="i_interest_list" messageCode="global_menu_list" url="/interests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4JyyNkq+N+8B3aGq1+i2vojkSEQ="/>
+        </menu:category>
+    <menu:category id="c_activity" z="NF6PmQkAyo1JgYYtjuLuGgtZu1o=">
+            <menu:item id="i_activity_new" messageCode="global_menu_new" url="/activitys?form" z="humNnazx/vh/qV9QiaaPFxfrRKQ="/>
+        <menu:item id="i_activity_list" messageCode="global_menu_list" url="/activitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Xp5og2rY8Oyevfsbh0NHJCrRUu4="/>
+        </menu:category>
+    <menu:category id="c_seleniumtests" z="PPLMd2yNB6/LSbjIWogAacRPU+Q=">
+            <menu:item id="si_seleniumtests_test" messageCode="selenium_menu_test_suite" url="/resources/selenium/test-suite.xhtml" z="wwunW/IPDcunN97u41MvMJZQ2to="/>
+        </menu:category>
+    </menu:menu>
+</div>

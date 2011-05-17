@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_evarist_rootest_MyUser" items="${myusers}" z="/ON//OiJD8ypOJAzUSNvGC9TSeg=">
+        <table:table data="${myusers}" id="l_org_evarist_rootest_MyUser" path="/myusers" z="T7l1wnc/lMk0tav+7RxeRdRKxbY=">
+            <table:column id="c_org_evarist_rootest_MyUser_name" property="name" z="IkzzykygMmFZNeXsORZkt1W2nYI="/>
+            <table:column id="c_org_evarist_rootest_MyUser_address1" property="address1" z="KlqTxOgL2L3TaEFYoLvDkR++ro8="/>
+            <table:column id="c_org_evarist_rootest_MyUser_address2" property="address2" z="isUI24p9Y8KGAZarxC4ua0GPRE8="/>
+            <table:column id="c_org_evarist_rootest_MyUser_city" property="city" z="hGAJEe7fpQf0YkbMDngTi9xdCvY="/>
+            <table:column id="c_org_evarist_rootest_MyUser_st" property="st" z="BFCNPD+YuLS/EJxNlZwIdct0nSg="/>
+            <table:column id="c_org_evarist_rootest_MyUser_zip" property="zip" z="/YBfxbMK7JxkTaX27Yj46LLJVjk="/>
+        </table:table>
+    </page:list>
+</div>

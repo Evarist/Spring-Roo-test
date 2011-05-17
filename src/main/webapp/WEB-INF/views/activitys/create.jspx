@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_org_evarist_rootest_Activity" modelAttribute="activity" path="/activitys" render="${empty dependencies}" z="MOvNRYPMEwJJ/56FTN3E96f2ZU4=">
+        <field:input field="description" id="c_org_evarist_rootest_Activity_description" z="bjgdvEK7lYVVBu0xIs36LUQ9RAc="/>
+        <field:input field="email" id="c_org_evarist_rootest_Activity_email" validationMessageCode="field_invalid_email" z="QKj/pY1mP+nxfMl28aTeNIEXWLo="/>
+        <field:input field="type" id="c_org_evarist_rootest_Activity_type" z="xLeI0qJSZiG8gFibdX1hszdaen4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_org_evarist_rootest_Activity" render="${not empty dependencies}" z="RnAH8G1DNh/3237dLekwnpVeuso="/>
+</div>

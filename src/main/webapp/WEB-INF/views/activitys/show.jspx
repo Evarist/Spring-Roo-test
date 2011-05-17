@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_evarist_rootest_Activity" object="${activity}" path="/activitys" z="w32KxFtYObH4KmcT8S394gF4jcs=">
+        <field:display field="description" id="s_org_evarist_rootest_Activity_description" object="${activity}" z="hFH6z9vg+AG/2WsV50E46w6aUic="/>
+        <field:display field="email" id="s_org_evarist_rootest_Activity_email" object="${activity}" z="54FM1hWvKJguzw6KBfvx2zp80PQ="/>
+        <field:display field="type" id="s_org_evarist_rootest_Activity_type" object="${activity}" z="PC3yMqFTrZViYlgMcNYj47wbQ1Y="/>
+    </page:show>
+</div>
