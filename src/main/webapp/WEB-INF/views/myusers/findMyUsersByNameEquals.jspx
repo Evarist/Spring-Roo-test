@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByNameEquals" id="ff_org_evarist_rootest_MyUser" path="/myusers" z="Jq1hvs8bu1iC83Crugrj0G8Fh2I=">
+        <field:input disableFormBinding="true" field="name" id="f_org_evarist_rootest_MyUser_name" required="true" z="26aBEuLs8BXm8iUUlLogxsb7sLE="/>
+    </form:find>
+</div>
