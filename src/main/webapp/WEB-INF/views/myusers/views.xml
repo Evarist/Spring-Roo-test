@@ -13,4 +13,7 @@
 <definition extends="default" name="myusers/update">
         <put-attribute name="body" value="/WEB-INF/views/myusers/update.jspx"/>
     </definition>
+<definition extends="default" name="myusers/findMyUsersByNameEquals">
+        <put-attribute name="body" value="/WEB-INF/views/myusers/findMyUsersByNameEquals.jspx"/>
+    </definition>
 </tiles-definitions>

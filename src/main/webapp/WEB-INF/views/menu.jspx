@@ -7,6 +7,7 @@
         <menu:category id="c_myuser" z="usunpgw2ms7isz7eYcOe3Vj+56s=">
             <menu:item id="i_myuser_new" messageCode="global_menu_new" url="/myusers?form" z="nfYzVa7tnS80UcaKPi/BcNon9xA="/>
         <menu:item id="i_myuser_list" messageCode="global_menu_list" url="/myusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pFV7GEhVrcuSjl41Jur+oE52A/w="/>
+        <menu:item id="fi_myuser_nameequals" messageCode="global_menu_find" url="/myusers?find=ByNameEquals&amp;form" z="iSi2Yh0M3xTVQBIp+FeyztseuQQ="/>
         </menu:category>
     <menu:category id="c_interest" z="+nUZGZAoQYht1sS66tzHpxEtGc4=">
             <menu:item id="i_interest_new" messageCode="global_menu_new" url="/interests?form" z="bJtCzV8IXTRwHehAHFtHyPC/WJ4="/>
@@ -18,6 +19,9 @@
         </menu:category>
     <menu:category id="c_seleniumtests" z="PPLMd2yNB6/LSbjIWogAacRPU+Q=">
             <menu:item id="si_seleniumtests_test" messageCode="selenium_menu_test_suite" url="/resources/selenium/test-suite.xhtml" z="wwunW/IPDcunN97u41MvMJZQ2to="/>
+        </menu:category>
+    <menu:category id="c_flows" z="5igpkb/e+HPIN8iUErvmM38Eqqk=">
+            <menu:item id="i_flows_sampleflow" messageCode="webflow_menu_enter" url="/sampleflow" z="JMM+dAVQySYHXliwJ5d5AQocPfk="/>
         </menu:category>
     </menu:menu>
 </div>

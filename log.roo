@@ -49,3 +49,38 @@ selenium test --controller org.evarist.rootest.ActivityController
 selenium test --controller org.evarist.rootest.InterestController
 // [failed] entity --class org.evarist.rootest.Activity --testAutomatically 
 perform tests
+quit
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log closed at 2011-05-17 10:02:18
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log opened at 2011-05-17 14:29:20
+help
+web flow
+help
+test integration --entity org.evarist.rootest.Activity
+test integration --entity org.evarist.rootest.Interest
+test integration --entity org.evarist.rootest.MyUser
+help | more
+hint
+hint topics
+hint general
+hint start
+hint
+hint topics
+hint jpa
+hint finders
+finder list
+hint finders
+finder list
+finder add --finderName findMyUsersByNameEquals
+help
+security setup
+solr setup
+version
+json all
+jms setup --provider ACTIVEMQ_IN_MEMORY 
+addon list
+addon info id --searchResultId 92
+jms listener class --class org.evarist.rootest.MyListener
+addon upgrade all
+// [failed] quit
+exit
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log closed at 2011-05-17 15:18:24

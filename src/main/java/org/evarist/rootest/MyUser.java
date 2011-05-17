@@ -4,10 +4,12 @@ import org.springframework.roo.addon.entity.RooEntity;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.validation.constraints.NotNull;
+import org.springframework.roo.addon.json.RooJson;
 
 @RooJavaBean
 @RooToString
-@RooEntity
+@RooEntity(finders = { "findMyUsersByNameEquals" })
+@RooJson
 public class MyUser {
 
     @NotNull
